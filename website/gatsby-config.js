@@ -1,3 +1,6 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}.local`,
+})
 console.log(`${__dirname}/content/blog`)
 
 module.exports = {
