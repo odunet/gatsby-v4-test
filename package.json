@@ -36,5 +36,6 @@
     "serve": "yarn workspace website gatsby serve",
     "clean": "yarn workspace website gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  }
+  },
+  "dependencies": {}
 }
